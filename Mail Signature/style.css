@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.email-signature {
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    color: black;
+    padding: 5px 20px;
+}
+
+.header img {
+    margin-right: 30px;
+    width: 125px;
+    margin-left: 30px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.vr {
+    width: 2px;
+    height: 180px;
+    background-color: #16b3eb;
+    margin-right: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 17px;
+    color: #16b3eb;
+    font-weight: bold;
+}
+
+.contact-info {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    color: black;
+}
+
+.contact-info p {
+    font-size: 15px;
+    color: black;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info .icon {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #16b3eb;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.icon:hover {
+    background-color: #2b9beb;
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #16b3eb;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    color: #404040;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 2;
+}
+
+.footer strong {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer .column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
