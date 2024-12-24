@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #00A9E0; /* Blue background */
+    color: white; /* White text */
+    text-align: left; /* Align text to the left */
+    padding: 20px 20px 20px 40px; /* Adjust padding for spacing */
+    position: relative; /* Position relative for absolute positioning of the logo */
+    height: auto; /* Dynamic height to fit content */
+}
+
+.header .logo {
+    position: absolute; /* Position absolute for top-right placement */
+    bottom: 150px;
+    right: 20px; /* Distance from the right */
+    width: 300px; /* Adjust width for the logo size */
+}
+
+.header h1 {
+    font-size: 70px; /* Large title font size */
+    font-weight: bold;
+    margin: 0 0 10px 0; /* Add spacing below */
+    color: #182C37;
+}
+
+.header h2 {
+    font-size: 40px; /* Subtitle font size */
+    margin: 0 0 15px 0; /* Add spacing below */
+}
+
+.header p {
+    font-size: 20px; /* Paragraph font size */
+    line-height: 1.5; /* Adjust line height */
+    margin: 0;
+    max-width: 800px; /* Restrict text width for readability */
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+}
+
+.section:nth-child(odd) {
+    background-color: #182C37;
+    color: white;
+    flex-direction: row-reverse;
+}
+
+.section:nth-child(even) {
+    background-color: #00A9E0;
+    color: white;
+}
+
+.image-placeholder {
+    width: 40%;
+    height: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h3, .text h4 {
+    margin: 0 0 10px;
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #182C37; /* Dark background */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background-color: #00A9E0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    background-color: #007BB5;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+}
+
+.text-container h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.text-container p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #00A9E0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007BB5;
+}
